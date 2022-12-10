@@ -29,7 +29,7 @@
     <div class="relative h-[570px]">
       <img alt="semarang" src="img/hero.jpg" class="absolute w-full h-[570px] object-cover"/>
       <div class="bg-white/10 absolute w-full h-[570px]">
-        <div class="container pt-20 w-full">
+        <div class="container pt-48 w-full">
           <div class="font-sans text-3xl font-normal text-white">
             Hai Kamu, <span class="font-bold">Ayo main di Semarang!</span>
             <div class="text-sm text-gray-c1 w-2/4 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae commodi inventore assumenda eos repellendus rerum corrupti a, cupiditate, atque, deleniti repudiandae dignissimos eum enim sequi dolor nisi corporis aperiam?</div>
