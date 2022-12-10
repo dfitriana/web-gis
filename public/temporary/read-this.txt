@@ -1,0 +1,7 @@
+Jika anda baru meng-clone repo ini, jalankan 
+php artisan storage:link
+
+jika folder /public/storage/img kosong, 
+pindahkan/copy gambar yang ada dalam folder temporary ke /public/storage/img
+
+Good, luck! :D

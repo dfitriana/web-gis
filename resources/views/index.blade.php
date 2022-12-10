@@ -27,7 +27,7 @@
 
     {{-- section hero --}}
     <div class="relative h-[570px]">
-      <img alt="semarang" src="storage/img/hero.jpg" class="absolute w-full h-[570px] object-cover"/>
+      <img alt="semarang" src="img/hero.jpg" class="absolute w-full h-[570px] object-cover"/>
       <div class="bg-white/10 absolute w-full h-[570px]">
         <div class="container pt-20 w-full">
           <div class="font-sans text-3xl font-normal text-white">
