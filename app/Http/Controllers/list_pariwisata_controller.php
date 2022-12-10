@@ -24,6 +24,17 @@ class list_pariwisata_controller extends Controller
         return response()->json(['data' => $data]);
     }
 
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        $pariwisata = list_pariwisata::find($id);
+        return \view('detail',['pariwisata' => $pariwisata]);
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -46,17 +57,6 @@ class list_pariwisata_controller extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        $pariwisata = list_pariwisata::find($id);
-        return \view('detail',['pariwisata' => $pariwisata]);
-    }
 
     /**
      * Show the form for editing the specified resource.
