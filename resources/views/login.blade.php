@@ -9,7 +9,7 @@
 </head>
 <body>
   <div>
-    <div class="relative h-[100vh] bg-gradient-to-r from-blue-200 via-white to-purple-300 flex justify-center items-center hover:from-purple-400 hover:via-pink-100 hover:to-blue-400">
+    <div class="relative h-[100vh] bg-gradient-to-bl from-blue-300 via-white to-purple-300 flex justify-center items-center hover:from-purple-400 hover:via-pink-100 hover:to-blue-400">
       <div class="absolute w-[480px] h-[450px] p-0">
         <div class="relative font-nunito mb-12 text-center text-5xl font-extrabold text-black-c1">
           Selamat datang.
