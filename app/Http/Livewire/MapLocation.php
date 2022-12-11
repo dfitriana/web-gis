@@ -7,6 +7,9 @@ use Livewire\WithFileUploads;
 
 use Livewire\Component;
 use App\Models\list_pariwisata;
+use RealRashid\SweetAlert\Facades\Alert;
+
+use function PHPSTORM_META\map;
 
 class MapLocation extends Component
 {
@@ -51,12 +54,8 @@ class MapLocation extends Component
         ]);
 
         $this->clearForm();
-        // $this->loadLocations()    //refresh
-
-        //redirect to index
-        // return redirect()->route('/map')->with(['success' => 'Data Berhasil Disimpan!']);
-        session()->flash('message', 'Lokasi Destinasi Wisatamu Berhasil Disimpan!');
-        return back();
+        toast('Yeay, Lokasi Destinasi Wisatamu Berhasil Disimpan!','success');
+        return redirect('/map');
     }
 
 

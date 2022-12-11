@@ -17,6 +17,7 @@
     @livewireStyles
 </head>
 <body>
+    
 
     {{-- navbar --}}
     <div class="bg-white w-full flex justify-between h-12 shadow-c6 top-0 fixed z-20 text-black">
@@ -41,14 +42,15 @@
     <div class="w-full bg-white mt-24">
         @yield('content')
 
+        {{-- sweet alert --}}
+        @include('sweetalert::alert') 
+        
         {{isset($slot) ? $slot : null}}
     </div>
 
     {{-- footer --}}
     <div class="w-full text-center bg-gray-c2 text-xs font-normal text-black-c1 p-5">Copyright &#169; 2022</div>
   
-
-
 
     @livewireScripts
     @stack('script')
