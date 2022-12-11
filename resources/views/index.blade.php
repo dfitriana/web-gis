@@ -85,8 +85,8 @@
     </div>
     {{--  --}}
 
-    <div class="bg-navy-c1 relative">
-      <img alt="round decoration" src="img/Subtract_left.png" class="h-full right-0 top-0 rotate-180 absolute"/>
+    <div class="bg-gradient-to-r from-navy-c1 via-blue-900 to-cyan-600 relative">
+      {{-- <img alt="round decoration" src="img/Subtract_left.png" class="h-full right-0 top-0 rotate-180 absolute"/> --}}
       {{-- <img alt="round decoration" src="img/Subtract_right.png" class="h-3/4 right-0 bottom-0 absolute"/> --}}
 
       <div class="container py-10 pl-10 text-white">
@@ -97,7 +97,7 @@
           </div>
         </div>
         <a href="/map" class="cursor-pointer">
-          <button class="mt-6 py-2 px-8 border border-green-c1 rounded-md text-white font-nunito text-sm font-semibold hover:bg-white/10 hover:text-green-c1 hover:border-green-c1-hv">Selengkapnya</button>
+          <button class="mt-6 py-2 px-5 border border-green-c1 rounded-md text-white font-nunito text-sm font-semibold hover:bg-white/10 hover:text-green-c1 hover:border-green-c1-hv">Bagikan Sekarang</button>
         </a>
       </div>
     </div>
