@@ -68,7 +68,7 @@
       <div class="mt-16 grid grid-cols-3 gap-y-16 w-full">
         @foreach ($pariwisata as $item)
         <div class="w-[350px] h-[415px] rounded-xl border bg-white shadow-c1">
-          <a href="/location/{{$item->id}}" class="cursor-pointer">
+          <a href="/detail/{{$item->id}}" class="cursor-pointer">
             <img alt="{{ $item->places}}" src="{{ asset("storage/img/$item->image") }}" class="w-full h-[200px] object-cover rounded-t-xl"/>
           </a>
           <a href="/detail/{{$item->id}}" class="cursor-pointer">
