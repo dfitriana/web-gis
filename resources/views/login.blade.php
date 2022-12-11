@@ -18,7 +18,7 @@
           </div> --}}
         </div>
 
-        <form id="login" action="" method="post" class="px-8">
+        <form id="login" action="{{route('masuk')}}" method="post" class="px-8">
           @csrf
           <div class="mb-4 w-full">
             <label class="font-sans block text-black-c1 text-sm font-semibold mb-1" for="email">
@@ -27,6 +27,7 @@
             <input 
               class="font-sans font-normal text-sm bg-white appearance-none border-gray-c1 rounded-md w-full py-2 px-3 text-gray-700 leading-tight placeholder-gray-c25 focus:outline-none focus:border-blue-c1 focus:ring-cyan-500" 
               id="email" 
+              name="email"
               type="text" 
               placeholder="Isikan email kamu"/>
             @error('email')
@@ -40,6 +41,7 @@
             <input 
               class="font-sans font-normal text-sm bg-white appearance-none border-gray-c1 rounded-md w-full py-2 px-3 text-gray-700 leading-tight placeholder-gray-c25 focus:outline-none focus:border-blue-c1 focus:ring-cyan-500" 
               id="password" 
+              name="password"
               type="password" 
               placeholder="Isikan password kamu"/>
             @error('password')
