@@ -1,14 +1,4 @@
 <div>
-    @if (session()->has('message'))
-        <div class="w-full flex justify-center absolute top-10">
-            <div class="alert z-20 bg-green-c1 shadow-c1 rounded-lg py-5 px-6 mb-3 text-base text-white inline-flex w-auto alert-dismissible fade show animate-fade-in-down" role="alert">
-                <strong class="mr-2">Yeay! </strong> {{ session('message') }}
-                <button type="button" class="btn-close box-content w-4 h-4 p-1 pt-0 ml-4 mt-[-10px] text-white border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-white/70 hover:opacity-75 hover:no-underline" data-dismiss-target="alert" aria-label="Close">X</button>
-            </div>
-        </div>
-    @endif
-
-
     <div class="container w-full h-full mt-12 mb-24 px-0 shadow-c2 flex">
         <div class="w-[35%] p-8">
             <div class="font-nunito text-lg text-black-c1 font-normal">
