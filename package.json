@@ -17,5 +17,6 @@
     "dependencies": {
         "@tailwindcss/line-clamp": "^0.4.2",
         "mapbox-gl": "^2.11.1"
-    }
+    },
+    "author": "Diyah Ayu Fitriana"
 }
