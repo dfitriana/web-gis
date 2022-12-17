@@ -16,14 +16,14 @@ Aplikasi yang digunakan ketika develop projek ini
 Aplikasi ini merupakan aplikasi wisata berbasis GIS dimana melalui website ini pengguna dapat mengetahui lokasi destinasi wisata tersebut pada peta. Selain itu pengguna yg telah memiliki akun juga dapat menambahkan destinasi wisata baru.
 
 Page yang tersedia:
-/              --> homepage
-/login         --> login page
-/map           --> add destination page (must login to access this page)
-/detail/[id]   --> detail destination page
+- /              --> homepage
+- /login         --> login page
+- /map           --> add destination page (must login to access this page)
+- /detail/[id]   --> detail destination page
 
 User Account yg dapat digunakan untuk login
-Username: iamAdmin@mail.com
-Password: adminnih
+- Username: iamAdmin@mail.com
+- Password: adminnih
 
 ## Langkah - langkah
 Setelah clone repo ini lakukan step berikut
@@ -45,13 +45,25 @@ DB_DATABASE=webgis
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-4. run ```composer update```
-5. run ```php artisan key:generate```
-6. run ```php artisan migrate```
+4. run 
+```
+composer update
+```
+5. run 
+```
+php artisan key:generate
+```
+6. run 
+```
+php artisan migrate
+```
 7. Agar gambar yang di input saat add destinasi dapat di tampilkan, jalankan
-```php artisan storage:link```
+
+```
+php artisan storage:link
+```
 * sebelumnya hapus folder /public/storage, kemudian jalankan script diatas lalu jika script sudah berhasil dijalankan, pindahkan/copy gambar yang ada dalam folder temporary ke /public/storage/img
-read this step at /public/temporary/read-this.txt
+* read this step at /public/temporary/read-this.txt
 7. Untuk running dapat menggunakan tips ini, buka 3 tab terminal pada vs code, satu untuk install/menjalankan perintah lain, 2 lainnya untuk menjalankan BE dan FE,
  ```
  # for run BE
@@ -61,6 +73,9 @@ read this step at /public/temporary/read-this.txt
  ```
 
  Jika usai melakukan perubahan pada route dan config, gunakan script ini untuk merefresh code
- ```php artisan optimize```
+ 
+ ```
+ php artisan optimize
+ ```
 
 Have Fun and Good, luck! :D
