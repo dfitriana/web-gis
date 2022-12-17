@@ -64,7 +64,11 @@ php artisan storage:link
 ```
 * sebelumnya hapus folder /public/storage, kemudian jalankan script diatas lalu jika script sudah berhasil dijalankan, pindahkan/copy gambar yang ada dalam folder temporary ke /public/storage/img
 * read this step at /public/temporary/read-this.txt
-7. Untuk running dapat menggunakan tips ini, buka 3 tab terminal pada vs code, satu untuk install/menjalankan perintah lain, 2 lainnya untuk menjalankan BE dan FE,
+8. run
+```
+npm install
+```
+9. Untuk running dapat menggunakan tips ini, buka 3 tab terminal pada vs code, satu untuk install/menjalankan perintah lain, 2 lainnya untuk menjalankan BE dan FE,
  ```
  # for run BE
  php artisan serve
